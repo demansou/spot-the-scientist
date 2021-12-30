@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64934514277D566200E3D732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934513277D566200E3D732 /* AppDelegate.swift */; };
+		64934516277D566200E3D732 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 64934515277D566200E3D732 /* art.scnassets */; };
+		64934518277D566200E3D732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934517277D566200E3D732 /* ViewController.swift */; };
+		6493451B277D566200E3D732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64934519277D566200E3D732 /* Main.storyboard */; };
+		6493451D277D566500E3D732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6493451C277D566500E3D732 /* Assets.xcassets */; };
+		64934520277D566500E3D732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6493451E277D566500E3D732 /* LaunchScreen.storyboard */; };
+		6493452A277D566600E3D732 /* spot_the_scientistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934529277D566600E3D732 /* spot_the_scientistTests.swift */; };
+		64934534277D566600E3D732 /* spot_the_scientistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934533277D566600E3D732 /* spot_the_scientistUITests.swift */; };
+		64934536277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934535277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64934526277D566500E3D732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64934508277D566200E3D732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6493450F277D566200E3D732;
+			remoteInfo = "spot-the-scientist";
+		};
+		64934530277D566600E3D732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64934508277D566200E3D732 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6493450F277D566200E3D732;
+			remoteInfo = "spot-the-scientist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64934510277D566200E3D732 /* spot-the-scientist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spot-the-scientist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64934513277D566200E3D732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64934515277D566200E3D732 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		64934517277D566200E3D732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6493451A277D566200E3D732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6493451C277D566500E3D732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6493451F277D566500E3D732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64934525277D566500E3D732 /* spot-the-scientistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spot-the-scientistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64934529277D566600E3D732 /* spot_the_scientistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spot_the_scientistTests.swift; sourceTree = "<group>"; };
+		6493452F277D566600E3D732 /* spot-the-scientistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spot-the-scientistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64934533277D566600E3D732 /* spot_the_scientistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spot_the_scientistUITests.swift; sourceTree = "<group>"; };
+		64934535277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spot_the_scientistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6493450D277D566200E3D732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64934522277D566500E3D732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6493452C277D566600E3D732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64934507277D566200E3D732 = {
+			isa = PBXGroup;
+			children = (
+				64934512277D566200E3D732 /* spot-the-scientist */,
+				64934528277D566500E3D732 /* spot-the-scientistTests */,
+				64934532277D566600E3D732 /* spot-the-scientistUITests */,
+				64934511277D566200E3D732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64934511277D566200E3D732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64934510277D566200E3D732 /* spot-the-scientist.app */,
+				64934525277D566500E3D732 /* spot-the-scientistTests.xctest */,
+				6493452F277D566600E3D732 /* spot-the-scientistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64934512277D566200E3D732 /* spot-the-scientist */ = {
+			isa = PBXGroup;
+			children = (
+				64934513277D566200E3D732 /* AppDelegate.swift */,
+				64934515277D566200E3D732 /* art.scnassets */,
+				64934517277D566200E3D732 /* ViewController.swift */,
+				64934519277D566200E3D732 /* Main.storyboard */,
+				6493451C277D566500E3D732 /* Assets.xcassets */,
+				6493451E277D566500E3D732 /* LaunchScreen.storyboard */,
+			);
+			path = "spot-the-scientist";
+			sourceTree = "<group>";
+		};
+		64934528277D566500E3D732 /* spot-the-scientistTests */ = {
+			isa = PBXGroup;
+			children = (
+				64934529277D566600E3D732 /* spot_the_scientistTests.swift */,
+			);
+			path = "spot-the-scientistTests";
+			sourceTree = "<group>";
+		};
+		64934532277D566600E3D732 /* spot-the-scientistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64934533277D566600E3D732 /* spot_the_scientistUITests.swift */,
+				64934535277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift */,
+			);
+			path = "spot-the-scientistUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6493450F277D566200E3D732 /* spot-the-scientist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64934539277D566600E3D732 /* Build configuration list for PBXNativeTarget "spot-the-scientist" */;
+			buildPhases = (
+				6493450C277D566200E3D732 /* Sources */,
+				6493450D277D566200E3D732 /* Frameworks */,
+				6493450E277D566200E3D732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spot-the-scientist";
+			productName = "spot-the-scientist";
+			productReference = 64934510277D566200E3D732 /* spot-the-scientist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64934524277D566500E3D732 /* spot-the-scientistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6493453C277D566600E3D732 /* Build configuration list for PBXNativeTarget "spot-the-scientistTests" */;
+			buildPhases = (
+				64934521277D566500E3D732 /* Sources */,
+				64934522277D566500E3D732 /* Frameworks */,
+				64934523277D566500E3D732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64934527277D566500E3D732 /* PBXTargetDependency */,
+			);
+			name = "spot-the-scientistTests";
+			productName = "spot-the-scientistTests";
+			productReference = 64934525277D566500E3D732 /* spot-the-scientistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6493452E277D566600E3D732 /* spot-the-scientistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6493453F277D566600E3D732 /* Build configuration list for PBXNativeTarget "spot-the-scientistUITests" */;
+			buildPhases = (
+				6493452B277D566600E3D732 /* Sources */,
+				6493452C277D566600E3D732 /* Frameworks */,
+				6493452D277D566600E3D732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64934531277D566600E3D732 /* PBXTargetDependency */,
+			);
+			name = "spot-the-scientistUITests";
+			productName = "spot-the-scientistUITests";
+			productReference = 6493452F277D566600E3D732 /* spot-the-scientistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64934508277D566200E3D732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6493450F277D566200E3D732 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					64934524277D566500E3D732 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6493450F277D566200E3D732;
+					};
+					6493452E277D566600E3D732 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6493450F277D566200E3D732;
+					};
+				};
+			};
+			buildConfigurationList = 6493450B277D566200E3D732 /* Build configuration list for PBXProject "spot-the-scientist" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64934507277D566200E3D732;
+			productRefGroup = 64934511277D566200E3D732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6493450F277D566200E3D732 /* spot-the-scientist */,
+				64934524277D566500E3D732 /* spot-the-scientistTests */,
+				6493452E277D566600E3D732 /* spot-the-scientistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6493450E277D566200E3D732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64934516277D566200E3D732 /* art.scnassets in Resources */,
+				64934520277D566500E3D732 /* LaunchScreen.storyboard in Resources */,
+				6493451D277D566500E3D732 /* Assets.xcassets in Resources */,
+				6493451B277D566200E3D732 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64934523277D566500E3D732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6493452D277D566600E3D732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6493450C277D566200E3D732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64934518277D566200E3D732 /* ViewController.swift in Sources */,
+				64934514277D566200E3D732 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64934521277D566500E3D732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6493452A277D566600E3D732 /* spot_the_scientistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6493452B277D566600E3D732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64934534277D566600E3D732 /* spot_the_scientistUITests.swift in Sources */,
+				64934536277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64934527277D566500E3D732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6493450F277D566200E3D732 /* spot-the-scientist */;
+			targetProxy = 64934526277D566500E3D732 /* PBXContainerItemProxy */;
+		};
+		64934531277D566600E3D732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6493450F277D566200E3D732 /* spot-the-scientist */;
+			targetProxy = 64934530277D566600E3D732 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64934519277D566200E3D732 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6493451A277D566200E3D732 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6493451E277D566500E3D732 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6493451F277D566500E3D732 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64934537277D566600E3D732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64934538277D566600E3D732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6493453A277D566600E3D732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.spot-the-scientist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6493453B277D566600E3D732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.spot-the-scientist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6493453D277D566600E3D732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.spot-the-scientistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spot-the-scientist.app/spot-the-scientist";
+			};
+			name = Debug;
+		};
+		6493453E277D566600E3D732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.spot-the-scientistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spot-the-scientist.app/spot-the-scientist";
+			};
+			name = Release;
+		};
+		64934540277D566600E3D732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.spot-the-scientistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "spot-the-scientist";
+			};
+			name = Debug;
+		};
+		64934541277D566600E3D732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48WU65Z37Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demansou.spot-the-scientistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "spot-the-scientist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6493450B277D566200E3D732 /* Build configuration list for PBXProject "spot-the-scientist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64934537277D566600E3D732 /* Debug */,
+				64934538277D566600E3D732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64934539277D566600E3D732 /* Build configuration list for PBXNativeTarget "spot-the-scientist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6493453A277D566600E3D732 /* Debug */,
+				6493453B277D566600E3D732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6493453C277D566600E3D732 /* Build configuration list for PBXNativeTarget "spot-the-scientistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6493453D277D566600E3D732 /* Debug */,
+				6493453E277D566600E3D732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6493453F277D566600E3D732 /* Build configuration list for PBXNativeTarget "spot-the-scientistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64934540277D566600E3D732 /* Debug */,
+				64934541277D566600E3D732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64934508277D566200E3D732 /* Project object */;
+}
