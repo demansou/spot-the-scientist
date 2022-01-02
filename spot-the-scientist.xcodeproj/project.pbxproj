@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		64934514277D566200E3D732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934513277D566200E3D732 /* AppDelegate.swift */; };
-		64934516277D566200E3D732 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 64934515277D566200E3D732 /* art.scnassets */; };
 		64934518277D566200E3D732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934517277D566200E3D732 /* ViewController.swift */; };
 		6493451B277D566200E3D732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64934519277D566200E3D732 /* Main.storyboard */; };
 		6493451D277D566500E3D732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6493451C277D566500E3D732 /* Assets.xcassets */; };
@@ -16,6 +15,8 @@
 		6493452A277D566600E3D732 /* spot_the_scientistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934529277D566600E3D732 /* spot_the_scientistTests.swift */; };
 		64934534277D566600E3D732 /* spot_the_scientistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934533277D566600E3D732 /* spot_the_scientistUITests.swift */; };
 		64934536277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934535277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift */; };
+		64934543277D67F200E3D732 /* scientists.json in Resources */ = {isa = PBXBuildFile; fileRef = 64934542277D67F100E3D732 /* scientists.json */; };
+		64934545277D682200E3D732 /* Scientist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64934544277D682200E3D732 /* Scientist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 /* Begin PBXFileReference section */
 		64934510277D566200E3D732 /* spot-the-scientist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spot-the-scientist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64934513277D566200E3D732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64934515277D566200E3D732 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		64934517277D566200E3D732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6493451A277D566200E3D732 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6493451C277D566500E3D732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +48,8 @@
 		6493452F277D566600E3D732 /* spot-the-scientistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "spot-the-scientistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64934533277D566600E3D732 /* spot_the_scientistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spot_the_scientistUITests.swift; sourceTree = "<group>"; };
 		64934535277D566600E3D732 /* spot_the_scientistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spot_the_scientistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		64934542277D67F100E3D732 /* scientists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scientists.json; sourceTree = "<group>"; };
+		64934544277D682200E3D732 /* Scientist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scientist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				64934513277D566200E3D732 /* AppDelegate.swift */,
-				64934515277D566200E3D732 /* art.scnassets */,
 				64934517277D566200E3D732 /* ViewController.swift */,
 				64934519277D566200E3D732 /* Main.storyboard */,
 				6493451C277D566500E3D732 /* Assets.xcassets */,
 				6493451E277D566500E3D732 /* LaunchScreen.storyboard */,
+				64934542277D67F100E3D732 /* scientists.json */,
+				64934544277D682200E3D732 /* Scientist.swift */,
 			);
 			path = "spot-the-scientist";
 			sourceTree = "<group>";
@@ -229,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64934516277D566200E3D732 /* art.scnassets in Resources */,
+				64934543277D67F200E3D732 /* scientists.json in Resources */,
 				64934520277D566500E3D732 /* LaunchScreen.storyboard in Resources */,
 				6493451D277D566500E3D732 /* Assets.xcassets in Resources */,
 				6493451B277D566200E3D732 /* Main.storyboard in Resources */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64934518277D566200E3D732 /* ViewController.swift in Sources */,
+				64934545277D682200E3D732 /* Scientist.swift in Sources */,
 				64934514277D566200E3D732 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
